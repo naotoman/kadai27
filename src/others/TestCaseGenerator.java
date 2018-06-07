@@ -6,11 +6,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/*
+ * 課題27のテストケースを作成するクラス．
+ * 他のクラスからは完全に独立している．
+ */
 public class TestCaseGenerator {
 
-	private static final double prob1 = 0.2;
-	private static final int N = 10;
+	private static final double prob1 = 0.2;//要素が1になる確率
+	private static final int N = 10;//行（列）の数
 
+	//出力先
 	private static final String FILE_NAME = "input/sample27.txt";
 
 	public static void main(String[] args) {
