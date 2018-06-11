@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
 
-import main.Solver27;
 
 
 
@@ -27,10 +26,10 @@ class Edge {
 }
 
 
-/*
- * 課題27を解くプログラム．
- * 2部マッチング問題を最大フロー問題に帰着させて解く．
- * 最大フロー問題を解く際はDinic法を用いている．
+/**
+ * <p>{@code Solver27}インターフェースのDinic法による実装です。より具体的には、
+ * 問題を2部マッチング→最大フロー問題と帰着させて、最大フロー問題を解くアルゴリズムの一つである
+ * Dinic法で解きます。
  */
 public class Dinic implements Solver27 {
 

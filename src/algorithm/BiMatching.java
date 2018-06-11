@@ -7,8 +7,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-import main.Solver27;
 
+/**
+ * <p>{@code Solver27}インターフェースの実装の一つで、2部マッチング問題を高速に解くアルゴリズムです。
+ * このアルゴリズムは、最大フロー問題を解くFord-Fulkerson法をベースとしています。
+ * （参考：プログラミングコンテストチャレンジブック）
+ */
 public class BiMatching implements Solver27 {
 
 	private int n;

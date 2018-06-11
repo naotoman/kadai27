@@ -5,8 +5,11 @@ import java.io.FileNotFoundException;
 import java.util.BitSet;
 import java.util.Scanner;
 
-import main.Solver27;
 
+/**
+ * <p>{@code Solver27}インターフェースの実装の一つで、可能な割り当てを全通り試すアルゴリズムです。
+ * 計算量はO(n!)であるため、大きすぎる入力には対応できません。
+ */
 public class BruteForce27 implements Solver27 {
 
 	private int n;
