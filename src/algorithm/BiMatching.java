@@ -7,7 +7,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-
 /**
  * <p>{@code Solver27}インターフェースの実装の一つで、2部マッチング問題を高速に解くアルゴリズムです。
  * このアルゴリズムは、最大フロー問題を解くFord-Fulkerson法をベースとしています。
